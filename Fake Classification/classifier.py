@@ -36,7 +36,7 @@ model = conv_net()
 model.compile(optimizer='adam', loss = 'sparse_categorical_crossentropy', metrics=['sparse_categorical_accuracy'])
 
 
-training = model.fit(x_train, y_train, epochs=20, verbose=1)
+training = model.fit(x_train, y_train, epochs=100, verbose=1)
 model.save("/content/drive/My Drive/Real Fake/model/model.h5")
 
 from mlxtend.plotting import plot_confusion_matrix
