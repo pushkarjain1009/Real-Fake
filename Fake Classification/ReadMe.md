@@ -11,4 +11,4 @@ _Dataset Used :_ [Real and Fake Detection](https://www.kaggle.com/ciplab/real-an
 
 + 1st Submission(10 PM) : Complitied till training of Model
 + 2nd Submission(10 AM) : Completed till integration of Model with website
-+ 3rd Submission(4 PM) : Full Fledge deplyed web app with decent UI (Pending)
++ 3rd Submission(4 PM) : Full Fledge deployed web app with decent UI (Pending)
