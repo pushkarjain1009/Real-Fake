@@ -19,8 +19,8 @@ def result():
     Img = cv2.imread(img.filename)
     Img = cv2.resize(Img, (128,128))
 
-    #res = model.predict(Img)
-    res = 0
+    res = model.predict(Img)
+    
     if res == 0:
         return render_template('result.html', result = "REAL")
     else:
